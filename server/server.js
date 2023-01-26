@@ -44,5 +44,5 @@ app.post('/', async (req, res) => {
     res.status(500).send(error || 'Oh no, something went wrong...');
   }
 })
-
+//test
 app.listen(5000, () => console.log('AI server started on http://localhost:5000'))
